@@ -68,10 +68,27 @@ PS: If you do not need to change the data, you can skip the Topic Data Preproces
 The code of TAKG is slightly changed to suit the model. The topic data for input is processed as the format of Yue’s input Data(cite and show the data format). 
 PS: If you want to regenerate it, create a scratch_dataset object in utils/scratch_dataset.py, the getvaefile and  writevaefile functions will regenerate the input data.
 
+For preprocess, turn to the TAKG directory, run:
+Python preprocess.py -data_dir data/StackExchange
+
 
 ### Neural Topic Model Pretrain
 
-### Train
+This step is to get the pretrained NTM embeddings(only train ntm for 20 epochs) for later training and testing. 
+Pretrain the neural topic model, turn to the TAKG directory, run:
+Python train.py -data_tag StackExchange_s150_t10 -only_train_ntm -ntm_warm_up_epochs 20
+
+
+### Training and Testing
+
+PS:If you use the existing preprocessed and pretrained data, skip this data-move step.
+If you changed and regenerate the preprocessed and pretrained data, move the preprocessed data(TAKG/processed_data) to the main directory(processed_data), move the pretrained data(TAKG/data/StackExchange) to the main directory(NTMData). 
+
+First the other parameters except ntm are warmed up for 20 epochs, then the all parameters are updated for 100 epochs buy joint training. 
+ 
+For training and testing, turn to the main directory, run:
+Python predict.py
+
 
 ### Evaluation
 
