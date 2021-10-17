@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-10-17 00:21:46
- * @LastEditTime: 2021-10-17 14:50:28
+ * @LastEditTime: 2021-10-17 14:54:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /Personalized-Hashtag-Preferences/README.md
@@ -12,10 +12,11 @@ The official implementation of EMNLP 2021 paper "#HowYouTagTweets: Learning User
 
 ## Dataset
 
+### Data format
+
 ### Data statistics
 
 | Number of Tweets                  | 33,881 |
-|-----------------------------------|--------|
 | Number of Users                   | 2,571  |
 | Number of Hashtags                | 22,320 |
 | Average tweet number per user     | 13     |
