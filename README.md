@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-10-17 00:21:46
- * @LastEditTime: 2021-10-17 17:23:14
+ * @LastEditTime: 2021-10-17 19:51:10
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /Personalized-Hashtag-Preferences/README.md
@@ -73,8 +73,8 @@ Our model that couples the effects of hashtag context encoding (top) and user hi
 
 ### Dependencies
 
-- Python 3.5+
-- Pytorch 0.4
+- Python 3.8+
+- Pytorch 1.7.1
 
 ### Topic Data Preprocess
 
