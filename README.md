@@ -65,6 +65,9 @@ Our model that couples the effects of hashtag context encoding (top) and user hi
 
 PS: If you do not need to change the data, you can skip the Topic Data Preprocessing and Neural Topic Model Pretrain sessions.(The processed and pretrained data is saved in the ‘Data’, ‘Processed_data’ and ‘NTMData’ directory. Go to training session to run the prediction.py directly.)
 
+The code of TAKG is slightly changed to suit the model. The topic data for input is processed as the format of Yue’s input Data(cite and show the data format). 
+PS: If you want to regenerate it, create a scratch_dataset object in utils/scratch_dataset.py, the getvaefile and  writevaefile functions will regenerate the input data.
+
 
 ### Neural Topic Model Pretrain
 
