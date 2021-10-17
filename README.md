@@ -12,7 +12,7 @@ The official implementation of EMNLP 2021 paper "#HowYouTagTweets: Learning User
 
 ### Evaluation
 
-We use [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib/) to evaluate the predictions in the file ```sortTest.dat```, which is already meet the format requirements of <mark>RankLib</mark>, run: 
+We use [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib/) to evaluate the predictions in the file ```sortTest.dat```, which is in the format requirements of <mark>RankLib</mark>, run: 
 
 ```bash
 java -jar RankLib.jar -test sortTest.dat -metric2T <metric> -idv <file>
