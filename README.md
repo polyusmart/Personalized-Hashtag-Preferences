@@ -9,7 +9,8 @@
 
 # Personalized-Hashtag-Preferences
 
-The official implementation of EMNLP 2021 paper "#HowYouTagTweets: Learning User Hashtagging Preferences via Personalized Topic Attention".
+The official implementation of EMNLP 2021 paper "#HowYouTagTweets: Learning User Hashtagging Preferences via Personalized Topic Attention". Here we give some representative commands illustrating how to preprocess data, train, test, and evaluate our model. The code for topic model session is mainly adapted from YueWang’s TAKG code. Thanks for Yue’s support!
+
 
 ## Dataset
 
@@ -60,9 +61,12 @@ Our model that couples the effects of hashtag context encoding (top) and user hi
 
 ### Dependencies
 
-### Preprocess
+### Topic Data Preprocess
 
-### Pretrain
+PS: If you do not need to change the data, you can skip the Topic Data Preprocessing and Neural Topic Model Pretrain sessions.(The processed and pretrained data is saved in the ‘Data’, ‘Processed_data’ and ‘NTMData’ directory. Go to training session to run the prediction.py directly.)
+
+
+### Neural Topic Model Pretrain
 
 ### Train
 
