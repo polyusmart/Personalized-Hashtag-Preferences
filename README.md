@@ -145,3 +145,23 @@ Per-ranked list performance saved to: <file>
 ```
 
 ## Citation
+
+```
+@inproceedings{zhang-etal-2021-howyoutagtweets,
+    title = "{\#}{H}ow{Y}ou{T}ag{T}weets: Learning User Hashtagging Preferences via Personalized Topic Attention",
+    author = "Zhang, Yuji  and
+      Zhang, Yubo  and
+      Xu, Chunpu  and
+      Li, Jing  and
+      Jiang, Ziyan  and
+      Peng, Baolin",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.616",
+    pages = "7811--7820",
+    abstract = "Millions of hashtags are created on social media every day to cross-refer messages concerning similar topics. To help people find the topics they want to discuss, this paper characterizes a user{'}s hashtagging preferences via predicting how likely they will post with a hashtag. It is hypothesized that one{'}s interests in a hashtag are related with what they said before (user history) and the existing posts present the hashtag (hashtag contexts). These factors are married in the deep semantic space built with a pre-trained BERT and a neural topic model via multitask learning. In this way, user interests learned from the past can be customized to match future hashtags, which is beyond the capability of existing methods assuming unchanged hashtag semantics. Furthermore, we propose a novel personalized topic attention to capture salient contents to personalize hashtag contexts. Experiments on a large-scale Twitter dataset show that our model significantly outperforms the state-of-the-art recommendation approach without exploiting latent topics.",
+}
+
