@@ -13,7 +13,7 @@ The official implementation of EMNLP 2021 paper "#HowYouTagTweets: Learning User
 
 ## Dataset
 
-This Twitter dataset was first gathered with the official streaming API in Feb 2013, which contains 900M tweets. Our dataset can be downloaded here: //TODO
+This Twitter dataset was first gathered with the official streaming API in Feb 2013, which contains 900M tweets. Our twitter dataset can be found at `Data` directory.
 
 ### Data format
 
@@ -78,7 +78,7 @@ Our model that couples the effects of hashtag context encoding (top) and user hi
 
 ### Topic Data Preprocess
 
-> If you do not need to change the data, you can skip the Topic Data Preprocessing and Neural Topic Model Pretrain sessions.(The processed and pretrained data is saved in the ‘Data’, ‘Processed_data’ and ‘NTMData’ directory. Go to training session to run the `prediction.py` directly.)
+> If you do not need to change the data, you can skip the Topic Data Preprocessing and Neural Topic Model Pretrain sessions.(The processed and pretrained data is saved in the `Data`, `Processed_data` and `NTMData` directory. Go to training session to run the `prediction.py` directly.)
 
 The code of TAKG is slightly changed to suit the model. The topic data for input is processed as the format of Yue’s input Data(cite and show the data format).
 
