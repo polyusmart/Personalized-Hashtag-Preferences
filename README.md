@@ -9,7 +9,7 @@
 
 # Personalized-Hashtag-Preferences
 
-The official implementation of EMNLP 2021 paper "#HowYouTagTweets: Learning User Hashtagging Preferences via Personalized Topic Attention". Here we give some representative commands illustrating how to preprocess data, train, test, and evaluate our model. The code for topic model session is mainly adapted from YueWang’s TAKG code. Thanks for Yue’s support!
+The official implementation of EMNLP 2021 paper "[#HowYouTagTweets: Learning User Hashtagging Preferences via Personalized Topic Attention](https://aclanthology.org/2021.emnlp-main.616/)". Here we give some representative commands illustrating how to preprocess data, train, test, and evaluate our model. The code for topic model session is mainly adapted from YueWang’s TAKG code. Thanks for Yue’s support!
 
 ## Dataset
 
