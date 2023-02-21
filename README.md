@@ -144,7 +144,7 @@ Reading feature file [sortTest.dat]... [Done.]
 Per-ranked list performance saved to: <file>
 ```
 
-## Citation
+## Please cite our work if you use this code and dataset:
 
 ```
 @inproceedings{zhang-etal-2021-howyoutagtweets,
@@ -165,3 +165,5 @@ Per-ranked list performance saved to: <file>
     abstract = "Millions of hashtags are created on social media every day to cross-refer messages concerning similar topics. To help people find the topics they want to discuss, this paper characterizes a user{'}s hashtagging preferences via predicting how likely they will post with a hashtag. It is hypothesized that one{'}s interests in a hashtag are related with what they said before (user history) and the existing posts present the hashtag (hashtag contexts). These factors are married in the deep semantic space built with a pre-trained BERT and a neural topic model via multitask learning. In this way, user interests learned from the past can be customized to match future hashtags, which is beyond the capability of existing methods assuming unchanged hashtag semantics. Furthermore, we propose a novel personalized topic attention to capture salient contents to personalize hashtag contexts. Experiments on a large-scale Twitter dataset show that our model significantly outperforms the state-of-the-art recommendation approach without exploiting latent topics.",
 }
 
+
+Thanks to the follower's attention, we found that the version of code is not our SOTA version. We were regret that due to the crash of our server in 2021, we encountered  the management disorder of versions of our code. This existing version is not our SOTA version. Nevertheless, if you want to follow our work, we still encourage you to check several sections of our code for reference: the data processing pipeline and the model network. The dataset is well-processed and well-organized with auto-annotation. If you adopt the dataset, please cite our work. Additionally, the effectiveness of our SOTA model (especially the module of personalized topic attention mechanism) was tested for multiple times with abundant ablation experiments. We encourage you to implement the work from the beginning and make fair comparison between the Lstm-Att (past SOTA) and our SOTA model. If there is any question, welcome to discuss with us by email. In the meanwhile, we are continuously trying to get the code versions in order.
