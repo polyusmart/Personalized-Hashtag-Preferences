@@ -144,6 +144,10 @@ Reading feature file [sortTest.dat]... [Done.]
 Per-ranked list performance saved to: <file>
 ```
 
+
+Thanks to the follower's attention, we found that the version of code is not our SOTA version. We were regret that due to the crash of our server in 2021, we encountered  the management disorder of versions of our code. This existing version is not our SOTA version. Nevertheless, if you want to follow our work, we still encourage you to check several sections of our code for reference: the data processing pipeline and the model network. The dataset is well-processed and well-organized with auto-annotation. If you adopt the dataset, please cite our work. Additionally, the effectiveness of our SOTA model (especially the module of personalized topic attention mechanism) was tested for multiple times with abundant ablation experiments. We encourage you to implement the work from the beginning and make fair comparison between the Lstm-Att (past SOTA) and our SOTA model. If there is any question, welcome to discuss with us by email. In the meanwhile, we are continuously trying to get the code versions in order.
+
+
 ## Please cite our work if you use this code and dataset:
 
 ```
